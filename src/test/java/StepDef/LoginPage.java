@@ -61,7 +61,7 @@ public class LoginPage {
             conn.connect();
             int responseCode = conn.getResponseCode();
             if (responseCode >= 400) {
-                System.out.println("Image Is Broken " + Imgurl);
+                System.out.println("Image Is Broken. " + Imgurl);
                 count++;
             }
 
