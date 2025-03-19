@@ -7,9 +7,9 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions
         (
-                features = "src/test/java/Features", tags="@LoginPage1",
+                features = "src/test/java/Features", //tags="@LoginPage1",
                 glue = "StepDef"
         )
 
-public class testRunner2 {
+public class testRunnerParallel {
 }

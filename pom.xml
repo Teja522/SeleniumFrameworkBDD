@@ -65,7 +65,7 @@
 
     <profiles>
         <profile>
-            <id>TestRunner1</id>
+            <id>TestRunnerParallel</id>
             <build>
                 <plugins>
                     <plugin>
@@ -73,7 +73,7 @@
                         <artifactId>maven-surefire-plugin</artifactId>
                         <version>3.5.2</version>
                         <configuration>
-                            <includes>TestRunner.testRunner.java</includes>
+                            <includes>TestRunner.testRunnerParallel.java</includes>
                             <parallel>methods</parallel>
                             <threadCount>10</threadCount>
                         </configuration>
@@ -82,7 +82,7 @@
             </build>
         </profile>
         <profile>
-            <id>TestRunner2</id>
+            <id>TestRunner</id>
             <build>
                 <plugins>
                     <plugin>
@@ -90,7 +90,7 @@
                         <artifactId>maven-surefire-plugin</artifactId>
                         <version>3.5.2</version>
                         <configuration>
-                            <includes>TestRunner.testRunner2.java</includes>
+                            <includes>TestRunner.testRunner.java</includes>
                         </configuration>
                     </plugin>
                 </plugins>
