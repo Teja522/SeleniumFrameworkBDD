@@ -8,6 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions
         (
                 features = "src/test/java/Features", tags="@LoginPage1",
+                plugin = {"json:target/cucumber-reports/CucumberReport.json"},
                 glue = "StepDef"
         )
 
