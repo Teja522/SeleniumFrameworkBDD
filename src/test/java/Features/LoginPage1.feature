@@ -1,4 +1,4 @@
-@LoginPage1
+@LoginPage
 Feature:Testing Login Functionality
 
   Scenario:Verify Login1 Functionality
