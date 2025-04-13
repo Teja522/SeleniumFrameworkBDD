@@ -69,6 +69,7 @@ public class LoginPage {
 
         System.out.println("Total Images Broken are : " + count);
         driver.quit();
+        //New code added
     }
 
 
