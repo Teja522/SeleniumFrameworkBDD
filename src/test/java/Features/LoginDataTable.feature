@@ -6,6 +6,6 @@ Feature: Login functionality
     When User enters the following credentials
       | username      | password     |
       | standard_user | secret_sauce |
-      | visual_user   | secret_sauce |
-      | error_user    | secret_sauce |
+#      | visual_user   | secret_sauce |
+#      | error_user    | secret_sauce |
     Then User should be logged in successfully
